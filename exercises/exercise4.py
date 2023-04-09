@@ -11,7 +11,13 @@ numero_03 = "789"
 numero_04 = "132"
 
 # COMPLETAR - INICIO
+numero_int1=int(numero_01)
+numero_int2=int(numero_02)
+numero_int3=int(numero_03)
+numero_int4=int(numero_04)
 
+suma_de_numeros=numero_int1+numero_int2+numero_int3+numero_int4
+print(f'La suma de todos los números convertidos es: {suma_de_numeros}')
 # COMPLETAR - FIN
 
 assert suma_de_numeros == 1500
@@ -26,6 +32,12 @@ numero_02 = 456
 numero_03 = 789
 
 # COMPLETAR - INICIO
+numero_str1=str(numero_01)
+numero_str2=str(numero_02)
+numero_str3=str(numero_03)
+
+suma_de_numeros_string=numero_str1+numero_str2+numero_str3
+print(f'La suma de todos los números convertidos y concatenados es: {suma_de_numeros_string}')
 
 # COMPLETAR - FIN
 
@@ -42,6 +54,13 @@ numero_octal = "0o1425"
 numero_hexadecimal = "0x6f540"
 
 # COMPLETAR - INICIO
+num_entero_binario=int(numero_binario,2)
+num_entero_octal=int(numero_octal,8)
+num_entero_hexadecimal=int(numero_hexadecimal,16)
+
+multiplicacion_de_numeros=num_entero_binario*num_entero_octal*num_entero_hexadecimal
+print(f'El resultado de la multiplicación es: {multiplicacion_de_numeros}')
+
 
 # COMPLETAR - FIN
 
@@ -59,6 +78,13 @@ numero_03 = "0o1234"
 numero_04 = 654
 
 # COMPLETAR - INICIO
+num_entero1=int(numero_01)
+num_entero2=int(numero_02,16)
+num_entero3=int(numero_03,0)
+
+resultado_resta=num_entero1-num_entero2-num_entero3-numero_04
+print(f'El resultado de la resta es: {resultado_resta}')
+
 
 # COMPLETAR - FIN
 
