@@ -66,6 +66,7 @@ variable_05 = "Ezequiel"
 # COMPLETAR - INICIO
 strings_concatenados = "{}{}{}{}{} Se llama {}".format(variable_01, variable_02, variable_03, variable_02,
                                                        variable_04, variable_05)
+print("{}{}{}{}{} Se llama {}".format(variable_01, variable_02, variable_03, variable_02, variable_04, variable_05))
 # COMPLETAR - FIN
 print(strings_concatenados)
 
