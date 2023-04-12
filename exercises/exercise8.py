@@ -10,7 +10,7 @@ Definir un diccionario para un 'Cliente' que contenga los siguiente valores:
 """
 
 # COMPLETAR - INICIO
-
+diccionario = ["Nombre": "Mario Pedernera", "DNI": "56895632", "Domicilio": "Los alamos 4509", "Compras": "cafetera", "TV 50 pulgadas", "mouse gamer"]
 # COMPLETAR - FIN
 
 assert (

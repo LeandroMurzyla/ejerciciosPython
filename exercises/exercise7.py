@@ -98,9 +98,12 @@ Restricción: Utilizar desempaquetado con comodines
 lista = [73, 45, 344, 3434, 2]
 
 # COMPLETAR - INICIO
+suma = []
+primero, *medio, ultimo = lista
 
+suma = primero + ultimo
 # COMPLETAR - FIN
-
+print(suma)
 assert suma == 75
 
 
@@ -113,7 +116,8 @@ Restricción: Utilizar desempaquetado con comodines y f-Strings
 tupla = ("anoche", "fui", "a", "la", "fiesta", "pero", "no", "pude", "entrar")
 
 # COMPLETAR - INICIO
-
+primero, segundo, tercero, cuarto, quinto, *otros = tupla
+string_concatenado = f"{primero} {segundo} {tercero} {cuarto} {quinto}" 
 # COMPLETAR - FIN
-
+print(string_concatenado)
 assert string_concatenado == "anoche fui a la fiesta"
