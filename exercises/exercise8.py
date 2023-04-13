@@ -10,8 +10,13 @@ Definir un diccionario para un 'Cliente' que contenga los siguiente valores:
 """
 
 # COMPLETAR - INICIO
-diccionario = ["Nombre": "Mario Pedernera", "DNI": "56895632", "Domicilio": "Los alamos 4509", "Compras": "cafetera", "TV 50 pulgadas", "mouse gamer"]
+Cliente = {}
+Cliente  = {"Nombre": "Mario Pedernera",
+            "DNI": 56895632,
+            "Domicilio": "Los alamos 4509",
+            "Compras": ["cafetera", "TV 50 pulgadas", "mouse gamer"]}
 # COMPLETAR - FIN
+print(Cliente)
 
 assert (
     (Cliente["Nombre"] == "Mario Pedernera")
@@ -29,8 +34,12 @@ Definir un diccionario para las 'Compras' que contenga los siguiente valores:
 """
 
 # COMPLETAR - INICIO
-
+Compras = {}
+Compras = {"Mario Pedernera": ["cafetera", "TV 50 pulgads", "mouse gamer"],
+           "Ezequiel Castello": ["ipad", "ipod", "iphone"],
+           "Pablo Piristrelli": ["Reproductor de CD", "Videograbadora"]}
 # COMPLETAR - FIN
+print(Compras)
 
 assert (
     (Compras["Mario Pedernera"] == ["cafetera", "TV 50 pulgads", "mouse gamer"])
@@ -52,6 +61,7 @@ diccionario = {
 }
 
 # COMPLETAR - INICIO
+
 
 # COMPLETAR - FIN
 
