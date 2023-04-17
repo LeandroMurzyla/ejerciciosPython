@@ -61,9 +61,9 @@ diccionario = {
 }
 
 # COMPLETAR - INICIO
-
-
+clave1 = diccionario.get("clave1")
 # COMPLETAR - FIN
+print(clave1)
 
 assert clave1 == 234
 
@@ -82,8 +82,9 @@ diccionario_2 = {
 }
 
 # COMPLETAR - INICIO
-
+clave5 = diccionario_2.get("clave5", 5)
 # COMPLETAR - FIN
+print(clave5)
 
 assert clave5 == 5
 
@@ -102,6 +103,7 @@ diccionario_3 = {
 # COMPLETAR - INICIO
 
 # COMPLETAR - FIN
+print(keys)
 
 assert keys == ["clave1", "clave2", "clave3", "clave4"]
 
