@@ -101,7 +101,9 @@ diccionario_3 = {
 }
 
 # COMPLETAR - INICIO
-
+keys = []
+for clave in diccionario_3.keys():
+    keys.append(clave)
 # COMPLETAR - FIN
 print(keys)
 
@@ -120,8 +122,11 @@ diccionario_4 = {
 }
 
 # COMPLETAR - INICIO
-
+values = []
+for clave in diccionario_4.values():
+    values.append(clave)
 # COMPLETAR - FIN
+print(values)
 
 assert values == [1234, 4567, 8910, 1112]
 
@@ -139,8 +144,11 @@ diccionario_5 = {
 }
 
 # COMPLETAR - INICIO
-
+items = []
+for clave, valor in diccionario_5.items():
+    items.append((clave, valor))
 # COMPLETAR - FIN
+print(items)
 
 assert items == [(1, 1111), (2, 2222), (3, 3333), (4, 4444)]
 
@@ -164,7 +172,8 @@ diccionario_7 = {
 }
 
 # COMPLETAR - INICIO
-
+diccionario_6.update(diccionario_7)
 # COMPLETAR - FIN
+print(diccionario_6)
 
 assert diccionario_6 == {1: 1111, 2: 2223, 3: 3334, 4: 4444, 5: 5555, 6: 6666}
