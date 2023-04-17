@@ -75,8 +75,7 @@ Restricción: Utilizar el método append junto al indexado simple
 lista = ["ho", 3.1416, 42, 81, 6, "la"]
 
 # COMPLETAR - INICIO
-lista_primero_y_ultimo = []
-lista_primero_y_ultimo.append(lista[0])
+lista_primero_y_ultimo = [lista[0], lista[-1]]
 lista_primero_y_ultimo.append(lista[-1])
 
 # COMPLETAR - FIN
